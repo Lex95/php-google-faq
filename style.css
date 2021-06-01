@@ -42,3 +42,13 @@ nav a {
     color: mediumblue;
     border-bottom: 2px solid mediumblue;
 }
+.container {
+    width: 1000px;
+    margin: 80px auto;
+}
+h2 {
+    margin-top: 50px;
+}
+p {
+    margin: 30px 0;
+}
