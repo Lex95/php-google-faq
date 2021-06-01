@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    /* height: 15vh; */
+    border-bottom: 1px solid grey;
+}
+main {
+    /* height: 85vh; */
+    overflow: auto;
+}
+a {
+    text-decoration: none;
+}
+.container-flex {
+    display: flex;
+}
+.filler {
+    flex-grow: 1;
+}
+img {
+    height: 25px;
+}
+header > div {
+    padding: 20px;
+}
+.no-style {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 15px;
+}
+nav a {
+    padding-bottom: 14px;
+    color: grey;
+}
+.active {
+    color: mediumblue;
+    border-bottom: 2px solid mediumblue;
+}

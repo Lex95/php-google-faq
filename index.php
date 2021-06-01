@@ -54,6 +54,7 @@ $data = [
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -61,7 +62,27 @@ $data = [
     <link rel="stylesheet" href="style.css">
     <title>Google FAQ</title>
 </head>
+
 <body>
+    <header>
+        <div class="container-flex">
+            <img src="imgs/googlefaqlogo.png" alt="">
+            <div class="filler"></div>
+            <img src="imgs/menuicon.png" alt="">
+        </div>
+        <nav>
+            <ul class="no-style">
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a href="#" class="active">Domande frequenti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
     
+    </main>
 </body>
+
 </html>
